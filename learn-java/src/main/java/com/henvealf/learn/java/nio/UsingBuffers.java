@@ -4,6 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 
 /**
+ * 1.
  * 在缓冲区里面插入和提取数据的时候会更新ByteBuffer中的四个索引，
  * 这里使用一个小程序来体现他们的变化。
  * 交换相邻字符

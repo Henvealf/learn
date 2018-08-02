@@ -5,7 +5,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
+ * 2.
  * 使用 java nio 复制文件的一个示例。
+ * 用到的有 channel 与 buffer
  * @author hongliang.yin/Henvealf on 2018/8/2
  */
 public class CopyFileUseNio {
