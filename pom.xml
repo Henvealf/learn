@@ -14,6 +14,7 @@
         <module>learn-scala</module>
         <module>learn-design-parttern</module>
         <module>learn-avro</module>
+        <module>learn-java8</module>
     </modules>
 
 
