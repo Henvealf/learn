@@ -11,6 +11,7 @@
     <modules>
         <module>learn-netty</module>
         <module>learn-java</module>
+        <module>learn-scala</module>
     </modules>
 
 

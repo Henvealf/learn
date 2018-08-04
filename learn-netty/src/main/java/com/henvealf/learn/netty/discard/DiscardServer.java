@@ -36,7 +36,10 @@ public class DiscardServer {
                          @Override
                          protected void initChannel(SocketChannel socketChannel) throws Exception {
                              // 设置一个流水线，流水线的最后一个是通过DiscardServerHandler来实现网络应用
-                             socketChannel.pipeline().addLast(new DiscardServerHandler());
+                             socketChannel.pipeline()
+                              .addLast(new DiscardServerHandler());
+                                // echo
+//                                .addLast(new EchoServerHandler());
                          }
                      })
                      // 配置 TCP/IP 属性

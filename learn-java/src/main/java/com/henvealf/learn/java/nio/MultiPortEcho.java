@@ -94,7 +94,7 @@ public class MultiPortEcho {
     }
 
     public static void main(String[] args) throws IOException {
-        // idea 会很卡
+        // win10下同时访问两个端口，idea 会很卡
         int[] ports = {9095, 9096};
         MultiPortEcho multiPortEcho = new MultiPortEcho(ports, "learn-java" + File.separatorChar + "nio-multiEcho-out.txt" );
         multiPortEcho.go();
