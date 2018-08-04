@@ -1,8 +1,9 @@
 package com.henvealf.learn.java.annotation.table;
 
-import com.henvealf.teach.annotation.tablean.IntegerCol;
-import com.henvealf.teach.annotation.tablean.StringCol;
-import com.henvealf.teach.annotation.tablean.Table;
+
+import com.henvealf.learn.java.annotation.tablean.IntegerCol;
+import com.henvealf.learn.java.annotation.tablean.StringCol;
+import com.henvealf.learn.java.annotation.tablean.Table;
 
 /**
  * Created by hongliang.yin/Henvealf on 2017/7/22.

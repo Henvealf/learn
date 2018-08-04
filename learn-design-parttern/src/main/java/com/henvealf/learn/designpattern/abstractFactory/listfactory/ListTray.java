@@ -1,12 +1,12 @@
 package com.henvealf.learn.designpattern.abstractFactory.listfactory;
 
 
+import com.henvealf.learn.designpattern.abstractFactory.factory.Item;
+import com.henvealf.learn.designpattern.abstractFactory.factory.Tray;
+
 import java.util.Iterator;
 
-import com.henvealf.learn.design.abstractFactory.factory.Item;
-import com.henvealf.learn.design.abstractFactory.factory.Tray;
-
-public class ListTray extends Tray{
+public class ListTray extends Tray {
 
 	public ListTray(String caption){
 		super(caption);

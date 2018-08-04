@@ -1,8 +1,9 @@
 package com.henvealf.learn.designpattern.factoryMothod;
 
-import com.henvealf.learn.design.factoryMothod.framework.Factory;
-import com.henvealf.learn.design.factoryMothod.framework.Product;
-import com.henvealf.learn.design.factoryMothod.idcard.IDCardFactory;
+
+import com.henvealf.learn.designpattern.factoryMothod.framework.Factory;
+import com.henvealf.learn.designpattern.factoryMothod.framework.Product;
+import com.henvealf.learn.designpattern.factoryMothod.idcard.IDCardFactory;
 
 public class Main {
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
 package com.henvealf.learn.java.annotation;
 
-import com.henvealf.teach.annotation.an.LazyHuman;
-import com.henvealf.teach.annotation.an.SmartRobot;
-import com.henvealf.teach.annotation.an.WorldItem;
+
+import com.henvealf.learn.java.annotation.an.LazyHuman;
+import com.henvealf.learn.java.annotation.an.SmartRobot;
 
 /**
  * Created by hongliang.yin/Henvealf on 2017/7/22.

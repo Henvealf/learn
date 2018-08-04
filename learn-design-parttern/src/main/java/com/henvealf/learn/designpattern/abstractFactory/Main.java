@@ -1,6 +1,10 @@
 package com.henvealf.learn.designpattern.abstractFactory;
 
-import com.henvealf.learn.design.abstractFactory.factory.*;
+
+import com.henvealf.learn.designpattern.abstractFactory.factory.Factory;
+import com.henvealf.learn.designpattern.abstractFactory.factory.Link;
+import com.henvealf.learn.designpattern.abstractFactory.factory.Page;
+import com.henvealf.learn.designpattern.abstractFactory.factory.Tray;
 
 /**
  * 利用工厂将零件组合成产品。

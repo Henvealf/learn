@@ -1,6 +1,6 @@
 package com.henvealf.learn.designpattern.visiter.ele;
 
-import com.henvealf.learn.design.visiter.visitor.ActionVisitor;
+import com.henvealf.learn.designpattern.visiter.visitor.ActionVisitor;
 
 /**
  * 语文老师

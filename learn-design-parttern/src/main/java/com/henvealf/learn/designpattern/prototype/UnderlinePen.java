@@ -1,8 +1,9 @@
 package com.henvealf.learn.designpattern.prototype;
 
-import com.henvealf.learn.design.prototype.framework.Product;
 
-public class UnderlinePen implements Product{
+import com.henvealf.learn.designpattern.prototype.framework.Product;
+
+public class UnderlinePen implements Product {
 
 	private char ulchar;
 	public UnderlinePen(char ulchar){

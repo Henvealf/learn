@@ -1,8 +1,9 @@
 package com.henvealf.learn.designpattern.prototype;
 
-import com.henvealf.learn.design.prototype.framework.Product;
 
-public class MessageBox implements Product{
+import com.henvealf.learn.designpattern.prototype.framework.Product;
+
+public class MessageBox implements Product {
 	//边框字符
 	private char decochar;
 	

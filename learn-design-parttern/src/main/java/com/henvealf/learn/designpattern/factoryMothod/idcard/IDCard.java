@@ -1,8 +1,8 @@
 package com.henvealf.learn.designpattern.factoryMothod.idcard;
 
-import com.henvealf.learn.design.factoryMothod.framework.Product;
+import com.henvealf.learn.designpattern.factoryMothod.framework.Product;
 
-public class IDCard extends Product{
+public class IDCard extends Product {
 
 	private String owner;
 	private int number;

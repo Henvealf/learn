@@ -1,8 +1,7 @@
 package com.henvealf.learn.designpattern.prototype;
 
-
-import com.henvealf.learn.design.prototype.framework.Manager;
-import com.henvealf.learn.design.prototype.framework.Product;
+import com.henvealf.learn.designpattern.prototype.framework.Manager;
+import com.henvealf.learn.designpattern.prototype.framework.Product;
 
 public class Main {
 	public static void main(String[] args) {

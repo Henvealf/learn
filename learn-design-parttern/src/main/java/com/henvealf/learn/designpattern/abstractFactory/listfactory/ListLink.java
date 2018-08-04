@@ -1,8 +1,9 @@
 package com.henvealf.learn.designpattern.abstractFactory.listfactory;
 
-import com.henvealf.learn.design.abstractFactory.factory.Link;
 
-public class ListLink extends Link{
+import com.henvealf.learn.designpattern.abstractFactory.factory.Link;
+
+public class ListLink extends Link {
 
 	public ListLink(String caption,String url){
 		super(caption,url);

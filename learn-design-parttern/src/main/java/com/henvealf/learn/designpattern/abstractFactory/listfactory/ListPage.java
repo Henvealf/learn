@@ -1,11 +1,12 @@
 package com.henvealf.learn.designpattern.abstractFactory.listfactory;
 
+
+import com.henvealf.learn.designpattern.abstractFactory.factory.Item;
+import com.henvealf.learn.designpattern.abstractFactory.factory.Page;
+
 import java.util.Iterator;
 
-import com.henvealf.learn.design.abstractFactory.factory.Item;
-import com.henvealf.learn.design.abstractFactory.factory.Page;
-
-public class ListPage extends Page{
+public class ListPage extends Page {
 
 	public ListPage(String title, String author){
 		super(title,author);

@@ -1,6 +1,6 @@
 package com.henvealf.learn.scala.hierarchy
 
-import com.henvealf.scala.objects.Rational
+import com.henvealf.learn.scala.objects.Rational
 
 /**
   *
