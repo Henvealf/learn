@@ -7,24 +7,20 @@ public class StringDisplayImpl extends DisplayImpl{
 	public StringDisplayImpl(String string) {
 		this.string = string;
 		this.width = string.getBytes().length;
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void rawOpen() {
-		// TODO Auto-generated method stub
 		printLine();
 	}
 
 	@Override
 	public void rawPrint() {
-		// TODO Auto-generated method stub
 		System.out.println("|" + string + "|");
 	}
 
 	@Override
 	public void rawClose() {
-		// TODO Auto-generated method stub
 		printLine();
 	}
 	

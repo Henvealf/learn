@@ -1,7 +1,12 @@
 package com.henvealf.learn.designpattern.bridge;
 
-public class Mian {
+/**
+ * 桥接模式，实现与抽象解耦
+ *
+ */
+public class Main {
 	public static void main(String[] args) {
+
 		Display dl = new Display(new StringDisplayImpl("heekdfklefje"));
 		Display d2 = new Display(new StringDisplayImpl("adadadads"));
 		CountDisplay d3 = new CountDisplay(new StringDisplayImpl("sdjsadhsajkdasjkdajsksdhsa"));

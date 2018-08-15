@@ -1,6 +1,7 @@
 package com.henvealf.learn.designpattern.bridge.test;
 
 public class Display {
+
 	private DisplayImpl impl;
 	public Display(DisplayImpl impl){
 		this.impl = impl;
@@ -19,7 +20,7 @@ public class Display {
 	}
 	public void display(){
 		start() ;
-		 middle();
-		 end();
+		middle();
+		end();
 	}
 }

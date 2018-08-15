@@ -1,6 +1,7 @@
 package com.henvealf.learn.designpattern.bridge;
 
 public class CountDisplay extends Display{
+
 	public CountDisplay(DisplayImpl impl ){
 		super(impl);
 	}
@@ -12,4 +13,6 @@ public class CountDisplay extends Display{
 		}
 		close();
 	}
+
+
 }

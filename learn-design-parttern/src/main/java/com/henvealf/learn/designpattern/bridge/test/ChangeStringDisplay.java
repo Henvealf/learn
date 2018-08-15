@@ -12,19 +12,16 @@ public class ChangeStringDisplay extends DisplayImpl{
 	}
 	@Override
 	public void rawStart() {
-		// TODO Auto-generated method stub
 		System.out.print(start);
 	}
 
 	@Override
 	public void rawMiddle() {
-		// TODO Auto-generated method stub      
-			System.out.print(middle);
+		System.out.print(middle);
 	}
 
 	@Override
 	public void rawEnd() {
-		// TODO Auto-generated method stub
 		System.out.println(end);
 	}
 	
