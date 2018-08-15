@@ -33,10 +33,10 @@ public class CopyFileUseNio {
                 System.out.println("Copy end.");
                 break;
             }
-            // 将 position 置为 0 ， limit 为 buffer 最大数据的位置，即原position的位置。
+            // 将 position 置为 0 ， limit 为 buffer 最大数据的位置，即原position的位置。等待数据从 buffer 中读出。
             bf.flip();
             outChannle.write(bf);
-            // 将 position 置为 0，  limit 到 buffer 的最大容量处。
+            // 将 position 置为 0，  limit 到 buffer 的最大容量处。等待将数据写入到 buffer 中。
             bf.clear();
         }
 
