@@ -4,7 +4,7 @@ import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
-import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.util.function.Supplier;
 
@@ -26,9 +26,13 @@ public class SimpleSocketClient {
     public void run() throws InterruptedException {
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
+            // 和 ServerBootstrap 相似，不同的是他是为非服务的渠道准备的，比如客户端或者非链接channel。
             Bootstrap b = new Bootstrap();
+            // 只选了一个 EventLoopGroup，该 EventLoopGroup 即会作为 boss，也会作为 worker。
             b.group(workerGroup);
-            b.channel(NioServerSocketChannel.class);
+            // NioSocketChannel 是用作创建一个客户端的Channel。
+            b.channel(NioSocketChannel.class);
+            //  the client-side SocketChannel does not have a parent.
             b.option(ChannelOption.SO_KEEPALIVE, true);
             b.handler(new ChannelInitializer<SocketChannel>() {
                 @Override
@@ -39,6 +43,7 @@ public class SimpleSocketClient {
                     }
                 }
             });
+            // connect 而不是 bind。
             ChannelFuture f = b.connect(host, port).sync();
             f.channel().closeFuture().sync();
         } finally {

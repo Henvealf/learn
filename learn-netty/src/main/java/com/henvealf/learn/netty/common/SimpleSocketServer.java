@@ -17,6 +17,7 @@ public class SimpleSocketServer {
     private int port;
     private Supplier<ChannelHandler>[] channelHandlerSuppliers;
 
+
     public SimpleSocketServer(int port, Supplier<ChannelHandler>... channelHandlerSuppliers) {
         this.port = port;
         this.channelHandlerSuppliers = channelHandlerSuppliers;
@@ -49,7 +50,7 @@ public class SimpleSocketServer {
                     })
                     // 配置 TCP/IP 属性
                     .option(ChannelOption.SO_BACKLOG, 128)
-                    .childOption(ChannelOption.SO_KEEPALIVE, false);
+                    .childOption(ChannelOption.SO_KEEPALIVE, true);
             // 绑定端口，你能调用多次来绑定不同的端口。来处理不同端口发来的请求。
             ChannelFuture f = b.bind(port).sync();
 
