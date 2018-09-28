@@ -71,11 +71,11 @@ public class CountDownLatchDemo {
     public static void main(String[] args) {
         ExecutorService exec = Executors.newCachedThreadPool();
         CountDownLatch latch = new CountDownLatch(SIZE);
-        //10个等待的任务
+        // 10个等待的任务
         for (int i = 0; i < 10; i++) {
             exec.execute(new WaitingTask(latch));
         }
-        //前提任务。
+        // 前提任务。
         for (int i = 0; i < SIZE; i++) {
             exec.execute(new TaskPortion(latch));
         }
