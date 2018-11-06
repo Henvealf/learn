@@ -19,8 +19,14 @@
         <module>learn-hbase2</module>
         <module>learn-maven</module>
         <module>learn-common-pool2</module>
+        <module>learn-spark</module>
     </modules>
 
+
+    <properties>
+        <spark.scala.version>2.11</spark.scala.version>
+        <spark.version>2.1.2</spark.version>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
@@ -69,6 +75,27 @@
                 <version>1.2.1</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-core_${spark.scala.version}</artifactId>
+                <version>${spark.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-graphx -->
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-graphx_${spark.scala.version}</artifactId>
+                <version>${spark.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>3.2.9</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

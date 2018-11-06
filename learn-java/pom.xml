@@ -25,5 +25,11 @@
             <artifactId>jmxtools</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
