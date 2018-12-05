@@ -20,12 +20,14 @@
         <module>learn-maven</module>
         <module>learn-common-pool2</module>
         <module>learn-spark</module>
+        <module>learn-zk</module>
     </modules>
 
 
     <properties>
         <spark.scala.version>2.11</spark.scala.version>
         <spark.version>2.1.2</spark.version>
+        <curator.version>4.0.1</curator.version>
     </properties>
 
     <dependencyManagement>
@@ -95,6 +97,34 @@
                 <groupId>cglib</groupId>
                 <artifactId>cglib</artifactId>
                 <version>3.2.9</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+            <!--<dependency>-->
+                <!--<groupId>org.apache.curator</groupId>-->
+                <!--<artifactId>curator-framework</artifactId>-->
+                <!--<version>${curator.version}</version>-->
+            <!--</dependency>-->
+
+            <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-recipes -->
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-test -->
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-test</artifactId>
+                <version>${curator.version}</version>
+                <!--<scope>test</scope>-->
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.25</version>
             </dependency>
 
         </dependencies>
