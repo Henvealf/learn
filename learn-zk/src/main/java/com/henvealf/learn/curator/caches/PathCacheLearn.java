@@ -58,6 +58,7 @@ public class PathCacheLearn {
 //                    }
                     System.out.println("child size in INITIALIZED listener: " + currentDatas.size());
 
+
                     break;
                 case CHILD_ADDED:
                     System.out.println(" path child has add");
