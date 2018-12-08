@@ -1,10 +1,10 @@
 package com.henvealf.learn.java.jvm;
 
-import javax.lang.model.util.SimpleAnnotationValueVisitor6;
+
 
 /**
  * 3.2.4 使用 finalize 方法拯救即将要被回收的对象
- * @author hongliang.yin/Henvealf on 2018/11/6
+ * 类描述信息
  */
 public class FinalizeEscapeGC {
 
