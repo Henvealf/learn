@@ -45,7 +45,6 @@ public class PathCacheLearn {
                 case INITIALIZED:
                     System.out.println(" path cache have INITIALIZED event");
                     printCurrentData(pathChildrenCache, "INITIALIZED listener");
-
                     break;
                 case CHILD_ADDED:
                     System.out.println(" path child has add");
