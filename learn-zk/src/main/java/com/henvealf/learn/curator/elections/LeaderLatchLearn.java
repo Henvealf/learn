@@ -3,10 +3,8 @@ package com.henvealf.learn.curator.elections;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
-import org.apache.curator.framework.recipes.leader.LeaderLatch;
-import org.apache.curator.framework.recipes.leader.LeaderLatchListener;
-import org.apache.curator.framework.recipes.leader.Participant;
 import org.apache.curator.retry.ExponentialBackoffRetry;
+
 
 /**
  *
@@ -60,6 +58,7 @@ public class LeaderLatchLearn {
 //        Thread.sleep(1000 * 10);
 //        leaderLatch.close();
         cf.close();
+
     }
 
 }
