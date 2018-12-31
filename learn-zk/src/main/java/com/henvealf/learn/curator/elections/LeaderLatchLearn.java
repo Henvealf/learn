@@ -12,6 +12,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  *
  * leader 闩
@@ -82,6 +83,7 @@ public class LeaderLatchLearn {
 
         try {
 
+//
 //            while (true) {
 //                for (LeaderLatch leaderLatch: leaderLatchLearns) {
 //                    System.out.println("leaderLatch" + leaderLatch.getId() + " wait new leader");
@@ -89,6 +91,10 @@ public class LeaderLatchLearn {
 //                }
 //                Thread.sleep(1000 );
 //            }
+////        });
+////
+////
+
 
             System.out.println("Press enter/return to quit\n");
             new BufferedReader(new InputStreamReader(System.in)).readLine();
@@ -101,7 +107,6 @@ public class LeaderLatchLearn {
                 ll.close();
             }
         }
-
     }
 
 }
