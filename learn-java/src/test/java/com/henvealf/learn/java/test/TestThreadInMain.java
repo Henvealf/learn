@@ -1,5 +1,7 @@
 package com.henvealf.learn.java.test;
 
+import java.util.Collections;
+
 /**
  * @author hongliang.yin/Henvealf on 2018/9/19
  */
@@ -23,9 +25,11 @@ public class TestThreadInMain {
 //        runnable.run();
 
 //        System.out.println(Integer.parseInt(""));
-        Integer a = new Integer(1);
-        add(a);
-        System.out.println(a);
+//        Integer a = new Integer(1);
+//        add(a);
+//        System.out.println(a);
+
+        System.out.println(26 & 15);
     }
 
     public static void add(Integer a) {
