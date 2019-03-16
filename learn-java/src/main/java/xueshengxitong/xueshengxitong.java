@@ -11,35 +11,35 @@
 //	}
 //	public static void main(String[] args){
 //		System.out.println("*********************************");
-//		System.out.println("É½¶«²Æ¾­´óÑ§»¶Ó­Äã");
+//		System.out.println("å±±ä¸œè´¢ç»å¤§å­¦æ¬¢è¿ä½ ");
 //		System.out.println("*********************************");
-//		System.out.println("»¶Ó­Ê¹ÓÃJAVAÑ§Éú³É¼¨¹ÜÀíÏµÍ³£¡£¡£¡");
+//		System.out.println("æ¬¢è¿ä½¿ç”¨JAVAå­¦ç”Ÿæˆç»©ç®¡ç†ç³»ç»Ÿï¼ï¼ï¼");
 //		System.out.println("*********************************");
-//		System.out.println("ÎÂÜ°ÌáÊ¾£ºÇëÓÃÑ§ºÅ²éÕÒ£¬ĞŞ¸ÄÉ¾³ıÊı¾İ£¡£¡£¡ ");
+//		System.out.println("æ¸©é¦¨æç¤ºï¼šè¯·ç”¨å­¦å·æŸ¥æ‰¾ï¼Œä¿®æ”¹åˆ é™¤æ•°æ®ï¼ï¼ï¼ ");
 //		System.out.println("*********************************");
 //		Scanner reader= new Scanner(System.in);
 //		String a;
-//		System.out.println("ÇëµÇÂ½ÕÊºÅ£¬°´ENTER½áÊø£º");
+//		System.out.println("è¯·ç™»é™†å¸å·ï¼ŒæŒ‰ENTERç»“æŸï¼š");
 //		a =  (String)reader.next();
 //		String z;
-//		System.out.println("ÇëÊäÈëÃÜÂë£º");
+//		System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
 //		z =  (String)reader.next();
 //		if( a.equals("java")&&z.equals("java")){
-//		System.out.println("ÒÔ¹ÜÀíÔ±Éí·İµÇÂ½£¬ÇëÑ¡ÔñÄúµÄ²Ù×÷");
-//		System.out.println("Ôö¼ÓÒ»¸öÑ§ÉúĞÅÏ¢Çë°´¡®1¡¯");
-//		System.out.println("Ôö¼Ó¶à¸öÑ§ÉúĞÅÏ¢Çë°´¡®2¡¯");
-//		System.out.println("É¾³ıÊı¾İÇë°´¡®3¡¯");
-//		System.out.println("²éÕÒÊı¾İÇë°´¡®4¡¯");
-//		System.out.println("ĞŞ¸ÄÊı¾İÇë°´¡®5¡¯");
-//		System.out.println("Í³¼ÆÊı¾İÇë°´¡®6¡¯");
-//		System.out.println("Çå³ıËùÓĞÊı¾İÇë°´¡®7¡¯");
-//		System.out.println("°ÑÊı¾İÈ«²¿´òÓ¡µ½ÆÁÄ»Çë°´¡®8¡¯");
-//		System.out.println("¹ØÓÚ×÷ÕßÇë°´¡®9¡¯");
-//		System.out.println("²éÑ¯µ±Ç°Ñ§Éú×ÜÊıÇë°´¡®#¡¯");
-//		System.out.println("²éÑ¯µ±Ç°idºÅÂëÇë°´¡®*¡¯");
-//		System.out.println("¸ù¾İ×Ü·ÖÅÅÃûÇë°´¡®@¡¯");
-//		System.out.println("ĞŞ¸ÄÃÜÂëÇë°´¡®&¡¯");
-//		System.out.println("ÍË³ö³ÌĞòÇë°´¡®0¡¯");}
+//		System.out.println("ä»¥ç®¡ç†å‘˜èº«ä»½ç™»é™†ï¼Œè¯·é€‰æ‹©æ‚¨çš„æ“ä½œ");
+//		System.out.println("å¢åŠ ä¸€ä¸ªå­¦ç”Ÿä¿¡æ¯è¯·æŒ‰â€˜1â€™");
+//		System.out.println("å¢åŠ å¤šä¸ªå­¦ç”Ÿä¿¡æ¯è¯·æŒ‰â€˜2â€™");
+//		System.out.println("åˆ é™¤æ•°æ®è¯·æŒ‰â€˜3â€™");
+//		System.out.println("æŸ¥æ‰¾æ•°æ®è¯·æŒ‰â€˜4â€™");
+//		System.out.println("ä¿®æ”¹æ•°æ®è¯·æŒ‰â€˜5â€™");
+//		System.out.println("ç»Ÿè®¡æ•°æ®è¯·æŒ‰â€˜6â€™");
+//		System.out.println("æ¸…é™¤æ‰€æœ‰æ•°æ®è¯·æŒ‰â€˜7â€™");
+//		System.out.println("æŠŠæ•°æ®å…¨éƒ¨æ‰“å°åˆ°å±å¹•è¯·æŒ‰â€˜8â€™");
+//		System.out.println("å…³äºä½œè€…è¯·æŒ‰â€˜9â€™");
+//		System.out.println("æŸ¥è¯¢å½“å‰å­¦ç”Ÿæ€»æ•°è¯·æŒ‰â€˜#â€™");
+//		System.out.println("æŸ¥è¯¢å½“å‰idå·ç è¯·æŒ‰â€˜*â€™");
+//		System.out.println("æ ¹æ®æ€»åˆ†æ’åè¯·æŒ‰â€˜@â€™");
+//		System.out.println("ä¿®æ”¹å¯†ç è¯·æŒ‰â€˜&â€™");
+//		System.out.println("é€€å‡ºç¨‹åºè¯·æŒ‰â€˜0â€™");}
 //		while(true) {
 //		String c =  reader.next();
 //		switch(c) {
@@ -57,8 +57,8 @@
 //		case "@":lovee();break;
 //		case "&":lover();break;
 //		case "0":System.exit(0);break;
-//			default:System.out.println("´íÎó");
-//			}System.out.println("ÒÔ¹ÜÀíÔ±Éí·İ¼ÌĞø");
+//			default:System.out.println("é”™è¯¯");
+//			}System.out.println("ä»¥ç®¡ç†å‘˜èº«ä»½ç»§ç»­");
 //	}}
 //
 //
@@ -68,22 +68,22 @@
 //		Scanner reader= new Scanner(System.in);
 //
 //		String name;
-//		System.out.println("ÇëÊäÈëĞÕÃû£º");
+//		System.out.println("è¯·è¾“å…¥å§“åï¼š");
 //		name =reader.next();
 //		String sex;
-//		System.out.println("ÇëÊäÈëĞÔ±ğ£º");
+//		System.out.println("è¯·è¾“å…¥æ€§åˆ«ï¼š");
 //		sex =reader.next();
 //		int english;
-//		System.out.println("ÇëÊäÈëÓ¢Óï³É¼¨£º");
+//		System.out.println("è¯·è¾“å…¥è‹±è¯­æˆç»©ï¼š");
 //		english =reader.nextInt();
 //		int javacourse;
-//		System.out.println("ÇëÊäÈëjava³É¼¨£º");
+//		System.out.println("è¯·è¾“å…¥javaæˆç»©ï¼š");
 //		javacourse =reader.nextInt();
 //		int math;
-//		System.out.println("ÇëÊäÈëÊıÑ§³É¼¨£º");
+//		System.out.println("è¯·è¾“å…¥æ•°å­¦æˆç»©ï¼š");
 //		math =reader.nextInt();
 //		int num;
-//		System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+//		System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
 //		num =reader.nextInt();
 //		Stu[number++]=new xueshengxitong(name,sex,english,javacourse,math,num);
 //
@@ -91,37 +91,37 @@
 //	}
 //	private static void getlove2(){
 //		Scanner reader= new Scanner(System.in);
-//		System.out.println("ÄãÏëÔö¼Ó¼¸ÃûÑ§ÉúĞÅÏ¢£¿£¿");
+//		System.out.println("ä½ æƒ³å¢åŠ å‡ åå­¦ç”Ÿä¿¡æ¯ï¼Ÿï¼Ÿ");
 //		 int b =  reader.nextInt();
 //		for(int x=1;x<=b;x++) {
 //			String name;
-//			System.out.println("ÇëÊäÈëĞÕÃû£º");
+//			System.out.println("è¯·è¾“å…¥å§“åï¼š");
 //			name =reader.next();
 //			String sex;
-//			System.out.println("ÇëÊäÈëĞÔ±ğ£º");
+//			System.out.println("è¯·è¾“å…¥æ€§åˆ«ï¼š");
 //			sex =reader.next();
 //			int english;
-//			System.out.println("ÇëÊäÈëÓ¢Óï³É¼¨£º");
+//			System.out.println("è¯·è¾“å…¥è‹±è¯­æˆç»©ï¼š");
 //			english =reader.nextInt();
 //			int javacourse;
-//			System.out.println("ÇëÊäÈëjava³É¼¨£º");
+//			System.out.println("è¯·è¾“å…¥javaæˆç»©ï¼š");
 //			javacourse =reader.nextInt();
 //			int math;
-//			System.out.println("ÇëÊäÈëÊıÑ§³É¼¨£º");
+//			System.out.println("è¯·è¾“å…¥æ•°å­¦æˆç»©ï¼š");
 //			math =reader.nextInt();
 //			int num;
-//			System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+//			System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
 //			num =reader.nextInt();
 //			Stu[number++]=new xueshengxitong(name,sex,english,javacourse,math,num);
 //
-//		System.out.println("Ìí¼Ó³É¹¦");
+//		System.out.println("æ·»åŠ æˆåŠŸ");
 //	}}
 //	private static void love3(){
-//		System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+//		System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
 //		Scanner input=new Scanner(System.in) ;
 //		int a=input.nextInt()-1;
 //		if(number==0||a>=number)
-//			System.out.println("²éÎŞ´ËÈË");
+//			System.out.println("æŸ¥æ— æ­¤äºº");
 //		else {
 //			Stu[a].setName(null);
 //			Stu[a].setNum(null);
@@ -130,15 +130,15 @@
 //			Stu[a].setMath(0);
 //			Stu[a].setEnglish(0);
 //			Stu[a].setScore=0;
-//			System.out.println("É¾³ı³É¹¦");
+//			System.out.println("åˆ é™¤æˆåŠŸ");
 //		}
 //	}
 //    private static void love4(){
-//    	System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+//    	System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
 //    	Scanner reader=new Scanner(System.in);
 //    	int i = reader.nextInt()-1;
 //    	if(i<0||i>=number)
-//    		System.out.print("ÎŞ´ËÊı¾İ");
+//    		System.out.print("æ— æ­¤æ•°æ®");
 //    	else {
 //    		String a=Stu[i].getNum();
 //    		String b=Stu[i].getName();
@@ -146,24 +146,24 @@
 //    		int d =Stu[i].getMath();
 //    		int e=Stu[i].getEnglish();
 //    		int f=Stu[i].getJavacourse();
-//System.out.println("Ñ§ºÅ£º"+a+"ĞÕÃû£º"+b+"ĞÔ±ğ£º"+c+"ÊıÑ§³É¼¨£º"+d+"Ó¢Óï³É¼¨£º"+e+"Java³É¼¨£º"+f);
+//System.out.println("å­¦å·ï¼š"+a+"å§“åï¼š"+b+"æ€§åˆ«ï¼š"+c+"æ•°å­¦æˆç»©ï¼š"+d+"è‹±è¯­æˆç»©ï¼š"+e+"Javaæˆç»©ï¼š"+f);
 //	}}
 //
 //    private static void love5(){
-//    	System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+//    	System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
 //		String xuehao =scanner.next();
 //		for(int i=0;i<number;i++){
 //			if (xuehao.equals( Stu[i].getNum())){
-//    			System.out.println("ÇëÊäÈëÒªĞŞ¸ÄµÄÑ§ÉúĞÅÏ¢");
-//    			System.out.println("ÇëÊäÈëĞÕÃû£º");
+//    			System.out.println("è¯·è¾“å…¥è¦ä¿®æ”¹çš„å­¦ç”Ÿä¿¡æ¯");
+//    			System.out.println("è¯·è¾“å…¥å§“åï¼š");
 //    			Stu[i].setName(scanner.next());
-//    			System.out.println("ÇëÊäÈëĞÔ±ğ£º");
+//    			System.out.println("è¯·è¾“å…¥æ€§åˆ«ï¼š");
 //    			Stu[i].setSex(scanner.next());
-//    			System.out.println("ÇëÊäÈëJava³É¼¨£º");
+//    			System.out.println("è¯·è¾“å…¥Javaæˆç»©ï¼š");
 //    			Stu[i].setJavacourse(scanner.nextInt());
-//    			System.out.println("ÇëÊäÈëÊıÑ§³É¼¨£º");
+//    			System.out.println("è¯·è¾“å…¥æ•°å­¦æˆç»©ï¼š");
 //    			Stu[i].setMath(scanner.nextInt());
-//    			System.out.println("ÇëÊäÈëÓ¢Óï³É¼¨£º");
+//    			System.out.println("è¯·è¾“å…¥è‹±è¯­æˆç»©ï¼š");
 //    			Stu[i].setEnglish(scanner.nextInt());
 //    			Stu[i].setScore=Stu[number].getJavacourse()+Stu[number].getMath()+Stu[number].getEnglish();
 //    			break;
@@ -172,7 +172,7 @@
 //
 //	private static void ame6(){
 //		Scanner reader= new Scanner(System.in);
-//		System.out.println("ÄãÏëÍ³¼Æ£º1£ºÓ¢Óï2£ºÊıÑ§3£ºJAVA4:×Ü·Ö5£ºÍË³ö");
+//		System.out.println("ä½ æƒ³ç»Ÿè®¡ï¼š1ï¼šè‹±è¯­2ï¼šæ•°å­¦3ï¼šJAVA4:æ€»åˆ†5ï¼šé€€å‡º");
 //		String qw;
 //		qw =  reader.next();
 //		switch(qw) {
@@ -180,28 +180,28 @@
 //			for(int i=0;i<=number;i++){
 //			int sum=0;
 //			sum+=Stu[i].getEnglish();
-//		System.out.println("Ó¢Óï³É¼¨×Ü·Ö"+sum);
+//		System.out.println("è‹±è¯­æˆç»©æ€»åˆ†"+sum);
 //		int pingjun;
 //		pingjun=sum/i;
-//		System.out.println("Ó¢Óï³É¼¨×Ü·Ö"+pingjun);
+//		System.out.println("è‹±è¯­æˆç»©æ€»åˆ†"+pingjun);
 //		}	break;
 //		case "2":
 //			for(int i=0;i<=number;i++){
 //			int sum=0;
 //			sum+=Stu[i].getMath();
-//		System.out.println("ÊıÑ§³É¼¨×Ü·Ö"+sum);
+//		System.out.println("æ•°å­¦æˆç»©æ€»åˆ†"+sum);
 //		int pingjun;
 //		pingjun=sum/i;
-//		System.out.println("ÊıÑ§³É¼¨×Ü·Ö"+pingjun);
+//		System.out.println("æ•°å­¦æˆç»©æ€»åˆ†"+pingjun);
 //		}break;
 //		case"3":
 //			for(int i=0;i<=number;i++){
 //			int sum=0;
 //			sum+=Stu[i].getJavacourse();
-//		System.out.println("java³É¼¨×Ü·Ö"+sum);
+//		System.out.println("javaæˆç»©æ€»åˆ†"+sum);
 //		int pingjun;
 //		pingjun=sum/i;
-//		System.out.println("java³É¼¨×Ü·Ö"+pingjun);
+//		System.out.println("javaæˆç»©æ€»åˆ†"+pingjun);
 //		}break;
 //		case"4":
 //			for(int i=0;i<=number;i++){
@@ -211,7 +211,7 @@
 //			sum1+=Stu[i].getEnglish();
 //			sum2+=Stu[i].getJavacourse();
 //			sum+=Stu[i].getMath();
-//		System.out.println("×Ü·Ö"+sum+sum1+sum2);
+//		System.out.println("æ€»åˆ†"+sum+sum1+sum2);
 //		}break;
 //		default:break;
 //		}
@@ -219,23 +219,23 @@
 //	}
 //    private static void love7(){
 //    	number = 0;
-//		System.out.println("Êı¾İÒÑÇå³ı");
+//		System.out.println("æ•°æ®å·²æ¸…é™¤");
 //
 //    }
 //    private static void love8(){
 //		for( int i=0;i<number;i++){
-//				System.out.println("Ñ§ºÅ£º"+Stu[i].getNum()+"ĞÕÃû£º"+Stu[i].getName()+"ĞÔ±ğ£º"+Stu[i].getSex()+"ÊıÑ§³É¼¨£º"+Stu[i].getMath()+"Ó¢Óï³É¼¨£º"+Stu[i].getEnglish()+"Java³É¼¨£º"+Stu[i].getJavacourse());
+//				System.out.println("å­¦å·ï¼š"+Stu[i].getNum()+"å§“åï¼š"+Stu[i].getName()+"æ€§åˆ«ï¼š"+Stu[i].getSex()+"æ•°å­¦æˆç»©ï¼š"+Stu[i].getMath()+"è‹±è¯­æˆç»©ï¼š"+Stu[i].getEnglish()+"Javaæˆç»©ï¼š"+Stu[i].getJavacourse());
 //			}
 //	}
 //    private static void love9(){
-//		System.out.println("×÷ÕßÊÇ fairy");
+//		System.out.println("ä½œè€…æ˜¯ fairy");
 //	}
 //    private static void loveq(){
-//		System.out.println("Ñ§Éú×ÜÊıÊÇ"+number);
+//		System.out.println("å­¦ç”Ÿæ€»æ•°æ˜¯"+number);
 //	}
 //    private static void lovew(){
 //		xueshengxitong.main(null);
-//		System.out.println("µ±Ç°idºÅÂëjava");
+//		System.out.println("å½“å‰idå·ç java");
 //	}
 //    private static void lovee(){
 //		int j;
@@ -247,7 +247,7 @@
 //				}
 //		}int i = 0;
 //		for( i=0;i<number;i++){
-//			System.out.println("Ñ§ºÅ£º"+Stu[i].getNum()+"ĞÕÃû£º"+Stu[i].getName()+"ĞÔ±ğ£º"+Stu[i].getSex()+"ÊıÑ§³É¼¨£º"+Stu[i].getMath()+"Ó¢Óï³É¼¨£º"+Stu[i].getEnglish()+"Java³É¼¨£º"+Stu[i].getJavacourse());
+//			System.out.println("å­¦å·ï¼š"+Stu[i].getNum()+"å§“åï¼š"+Stu[i].getName()+"æ€§åˆ«ï¼š"+Stu[i].getSex()+"æ•°å­¦æˆç»©ï¼š"+Stu[i].getMath()+"è‹±è¯­æˆç»©ï¼š"+Stu[i].getEnglish()+"Javaæˆç»©ï¼š"+Stu[i].getJavacourse());
 //		}
 //	}
 //
@@ -261,22 +261,22 @@
 //		String admin="";
 //		String administator="";
 //		String password = null;
-//		System.out.println("ÇëµÇÂ½ÕÊºÅ£¬°´ENTER½áÊø£º");
+//		System.out.println("è¯·ç™»é™†å¸å·ï¼ŒæŒ‰ENTERç»“æŸï¼š");
 //	Scanner input=new Scanner(System.in);
 //	inputname=input.next();
-//		System.out.println("ÇëÊäÈëÃÜÂë£º");
+//		System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
 //	inputpass=input.next();
 //	if(inputname.equals(name)&inputpass.equals(password)){
-//		System.out.println("ÇëÊäÈëĞÂÃÜÂë");
+//		System.out.println("è¯·è¾“å…¥æ–°å¯†ç ");
 //		newpassword= input.next();
-//		System.out.println("ÇëÈ·ÈÏĞÂÃÜÂë");
+//		System.out.println("è¯·ç¡®è®¤æ–°å¯†ç ");
 //		repassword= input.next();
 //		while (!(newpassword.equals(repassword))){
-//			System.out.println("Á½´ÎÃÜÂë²»Ò»ÖÂ");
+//			System.out.println("ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´");
 //			newpassword= input.next();
-//			System.out.println("ÇëÈ·ÈÏĞÂÃÜÂë");
+//			System.out.println("è¯·ç¡®è®¤æ–°å¯†ç ");
 //			repassword= input.next();
-//		}System.out.println("ĞŞ¸ÄÃÜÂë³É¹¦£¬ĞÂÃÜÂëÊÇ"+repassword);
+//		}System.out.println("ä¿®æ”¹å¯†ç æˆåŠŸï¼Œæ–°å¯†ç æ˜¯"+repassword);
 //	}
 //	}
 //}

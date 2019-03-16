@@ -1,7 +1,7 @@
 package xueshengxitong;
 
 /**
- * ´ú±íÒ»¸öÑ§Éú¡£
+ * ä»£è¡¨ä¸€ä¸ªå­¦ç”Ÿã€‚
  * @author CCITTYY-
  *
  */
@@ -17,16 +17,16 @@ public class Student {
 	
 	
 	/**
-	 * ÕâÊÇÒ»¸ö¹¹Ôì·½·¨£¬ÓÃÓÚ¹¹ÔìÒ»¸ö¶ÔÏó
-	 * @param id Ñ§ºÅ
-	 * @param name ĞÕÃû
-	 * @param sex ĞÔ±ğ
-	 * @param english Ó¢Óï³É¼¨
-	 * @param javacourse java ³É¼¨
-	 * @param math ÊıÑ§³É¼¨
+	 * è¿™æ˜¯ä¸€ä¸ªæ„é€ æ–¹æ³•ï¼Œç”¨äºæ„é€ ä¸€ä¸ªå¯¹è±¡
+	 * @param id å­¦å·
+	 * @param name å§“å
+	 * @param sex æ€§åˆ«
+	 * @param english è‹±è¯­æˆç»©
+	 * @param javacourse java æˆç»©
+	 * @param math æ•°å­¦æˆç»©
 	 */
 	public Student(String id, String name, String sex, int english, int javacourse, int math) {
-		// this ±¾¶ÔÏó×Ô¼ºµÄ±äÁ¿/×Ö¶Î
+		// this æœ¬å¯¹è±¡è‡ªå·±çš„å˜é‡/å­—æ®µ
 		this.name = name;
 		this.sex = sex;
 		this.english = english;

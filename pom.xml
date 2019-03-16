@@ -22,6 +22,7 @@
         <module>learn-spark</module>
         <module>learn-zk</module>
         <module>learn-orc</module>
+        <module>learn-leetcode</module>
     </modules>
 
 

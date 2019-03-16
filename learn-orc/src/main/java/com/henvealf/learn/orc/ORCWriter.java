@@ -1,6 +1,5 @@
 package com.henvealf.learn.orc;
 
-import jdk.management.resource.internal.inst.FileOutputStreamRMHooks;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector;

@@ -5,8 +5,6 @@ package com.henvealf.learn.java;
  */
 public class Learn {
 
-
-
     public static void main(String[] args) {
         learnFor();
     }

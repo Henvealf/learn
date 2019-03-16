@@ -1,7 +1,6 @@
 
 package com.henvealf.learn.java.annotation.an;
 
-import com.sun.istack.internal.Interned;
 
 import java.lang.annotation.*;
 
