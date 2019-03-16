@@ -1,5 +1,7 @@
 package com.henvealf.learn.java.test;
 
+import java.util.Collections;
+
 /**
  * @author hongliang.yin/Henvealf on 2018/9/19
  */
@@ -23,9 +25,6 @@ public class TestThreadInMain {
 //        runnable.run();
 
 //        System.out.println(Integer.parseInt(""));
-//        Solution s = new Solution();
-//        System.out.println(s.reverse(-123));
-        System.out.println(-1 % 10);
     }
 
     public static void add(Integer a) {
