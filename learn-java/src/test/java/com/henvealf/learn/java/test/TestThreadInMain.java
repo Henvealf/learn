@@ -1,6 +1,5 @@
 package com.henvealf.learn.java.test;
 
-import java.util.Collections;
 
 /**
  * @author hongliang.yin/Henvealf on 2018/9/19
@@ -25,6 +24,9 @@ public class TestThreadInMain {
 //        runnable.run();
 
 //        System.out.println(Integer.parseInt(""));
+        String s = "1231ASD";
+        Object o = new Object();
+        System.out.println(o);
     }
 
     public static void add(Integer a) {

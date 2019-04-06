@@ -67,6 +67,7 @@ public class HorseRace {
 
     public HorseRace(int nHorses, final int pause) {
 
+        // 到达栅栏后做的事情
         barrier = new CyclicBarrier(nHorses, () -> {
             //输出墙壁
             StringBuilder s = new StringBuilder();

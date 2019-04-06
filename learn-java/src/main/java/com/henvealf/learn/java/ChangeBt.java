@@ -1,7 +1,6 @@
 package com.henvealf.learn.java;
 
 import com.henvealf.learn.java.util.BinaryFile;
-import sun.jvm.hotspot.oops.ByteField;
 
 import java.io.IOException;
 import java.util.ArrayList;
