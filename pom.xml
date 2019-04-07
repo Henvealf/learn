@@ -23,6 +23,7 @@
         <module>learn-zk</module>
         <module>learn-orc</module>
         <module>learn-leetcode</module>
+        <module>learn-algorithm</module>
     </modules>
 
 
