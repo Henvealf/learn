@@ -24,8 +24,6 @@ public class QuickSort implements Sortor{
         recusiveSort(nums, p + 1, end);
     }
 
-
-
     private static int partition(int[] arr, int low, int high){
         int pivot = arr[low];     //枢轴记录
         while (low < high){
@@ -38,6 +36,7 @@ public class QuickSort implements Sortor{
         }
         //扫描完成，枢轴到位
         arr[low] = pivot;
+        System.out.println("low " + low + " high " + high);
         //返回的是枢轴的位置
         return low;
     }

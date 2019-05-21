@@ -24,6 +24,7 @@
         <module>learn-orc</module>
         <module>learn-leetcode</module>
         <module>learn-algorithm</module>
+        <module>learn-flink</module>
     </modules>
 
 
@@ -84,7 +85,12 @@
                 <groupId>org.apache.spark</groupId>
                 <artifactId>spark-core_${spark.scala.version}</artifactId>
                 <version>${spark.version}</version>
-                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.spark</groupId>
+                <artifactId>spark-sql_${spark.scala.version}</artifactId>
+                <version>${spark.version}</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-graphx -->
@@ -92,7 +98,6 @@
                 <groupId>org.apache.spark</groupId>
                 <artifactId>spark-graphx_${spark.scala.version}</artifactId>
                 <version>${spark.version}</version>
-                <scope>provided</scope>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/cglib/cglib -->
