@@ -7,4 +7,6 @@ import java.io.File;
  */
 public class Constants {
     public static final String USER_AVRO_FILE = "learn-avro" + File.separatorChar +"users.avro";
+    public static final String USER_SCHEMA_FILE = "learn-avro/src/main/resources/user.json";
+
 }
