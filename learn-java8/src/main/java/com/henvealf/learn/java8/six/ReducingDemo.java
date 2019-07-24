@@ -1,13 +1,10 @@
 package com.henvealf.learn.java8.six;
 
-import com.henvealf.learn.java8.five.Trader;
-
 import java.util.ArrayList;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import static java.util.stream.Collectors.reducing;
 import static java.util.stream.Collectors.summarizingInt;
 
 /**

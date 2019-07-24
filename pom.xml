@@ -8,6 +8,7 @@
     <artifactId>learn-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
+
     <modules>
         <module>learn-netty</module>
         <module>learn-java</module>
@@ -25,6 +26,9 @@
         <module>learn-leetcode</module>
         <module>learn-algorithm</module>
         <module>learn-flink</module>
+        <module>learn-mapdb</module>
+        <module>learn-quartz</module>
+        <module>learn-jetty</module>
     </modules>
 
 
@@ -33,6 +37,14 @@
         <spark.version>2.1.2</spark.version>
         <curator.version>4.0.1</curator.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
@@ -149,6 +161,29 @@
                 <version>1.5.4</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.mapdb</groupId>
+                <artifactId>mapdb</artifactId>
+                <version>3.0.7</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.quartz-scheduler</groupId>
+                <artifactId>quartz</artifactId>
+                <version>2.3.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-server</artifactId>
+                <version>9.4.18.v20190429</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-servlet</artifactId>
+                <version>9.4.18.v20190429</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
