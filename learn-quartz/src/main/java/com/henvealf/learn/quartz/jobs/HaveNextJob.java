@@ -1,4 +1,4 @@
-package com.henvealf.learn.quartz.chain;
+package com.henvealf.learn.quartz.jobs;
 
 import org.quartz.*;
 

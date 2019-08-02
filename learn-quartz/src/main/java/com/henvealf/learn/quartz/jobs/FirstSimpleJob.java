@@ -1,4 +1,4 @@
-package com.henvealf.learn.quartz.first;
+package com.henvealf.learn.quartz.jobs;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;

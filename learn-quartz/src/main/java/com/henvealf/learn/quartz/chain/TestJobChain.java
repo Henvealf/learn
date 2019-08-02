@@ -1,10 +1,8 @@
 package com.henvealf.learn.quartz.chain;
 
+import com.henvealf.learn.quartz.jobs.HaveNextJob;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
-
-import static org.quartz.SimpleScheduleBuilder.simpleSchedule;
-import static org.quartz.TriggerBuilder.newTrigger;
 
 /**
  * 测试依赖链。
@@ -16,8 +14,8 @@ public class TestJobChain {
     public static void main(String[] args) throws SchedulerException, InterruptedException {
 
         JobDetail rootJob = JobBuilder.newJob(HaveNextJob.class)
-                .withIdentity("rootJob")
                 .storeDurably()
+                .withIdentity("rootJob")
                 .usingJobData("nextJobName", "childJob").build();
 
         JobDetail childJob = JobBuilder.newJob(HaveNextJob.class)
@@ -30,18 +28,15 @@ public class TestJobChain {
         scheduler.addJob(rootJob, false);
         scheduler.addJob(childJob, false);
 
-        Trigger trigger = newTrigger()
-                .withIdentity("trigger1", "group1")
+        CronTrigger trigger = TriggerBuilder.newTrigger()
+                .withIdentity("trigger2", "group1")
                 .forJob("rootJob")
-                .startNow()
-                .withSchedule(simpleSchedule()
-                        .withIntervalInSeconds(1)
-                        .repeatForever())
+                .withSchedule(CronScheduleBuilder.cronSchedule("10 * * * * ?"))
                 .build();
 
         scheduler.scheduleJob( trigger );
 
-        Thread.sleep(10000);
+        Thread.sleep(100000);
 
         scheduler.shutdown();
     }
