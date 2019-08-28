@@ -43,5 +43,10 @@
             <artifactId>cglib</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>cz.mallat.uasparser</groupId>
+            <artifactId>uasparser</artifactId>
+        </dependency>
+
     </dependencies>
 </project>

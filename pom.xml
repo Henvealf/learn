@@ -30,6 +30,7 @@
         <module>learn-quartz</module>
         <module>learn-jetty</module>
         <module>learn-math3</module>
+        <module>learn-spring-amqp</module>
     </modules>
 
 
@@ -200,7 +201,47 @@
                 <version>3.6.1</version>
             </dependency>
 
+            <dependency>
+                <groupId>cz.mallat.uasparser</groupId>
+                <artifactId>uasparser</artifactId>
+                <version>0.6.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.amqp</groupId>
+                <artifactId>spring-rabbit</artifactId>
+                <version>2.1.7.RELEASE</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.2.3</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-core -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>1.2.3</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+            <dependency>
+                <groupId>com.rabbitmq</groupId>
+                <artifactId>amqp-client</artifactId>
+                <version>5.6.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.54</version>
+            </dependency>
         </dependencies>
+
     </dependencyManagement>
 
     <dependencies>

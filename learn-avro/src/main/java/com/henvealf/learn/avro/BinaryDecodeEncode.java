@@ -1,9 +1,6 @@
 package com.henvealf.learn.avro;
 
-import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
 import org.apache.avro.Schema;
-import org.apache.avro.generic.GenericDatumReader;
-import org.apache.avro.generic.GenericDatumWriter;
 import org.apache.avro.io.*;
 import org.apache.avro.specific.SpecificDatumReader;
 import org.apache.avro.specific.SpecificDatumWriter;
