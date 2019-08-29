@@ -1,4 +1,4 @@
-package com.henvealf.learn.quartz.first;
+package com.henvealf.learn.quartz.main;
 
 import com.henvealf.learn.quartz.jobs.FirstSimpleJob;
 import org.quartz.*;

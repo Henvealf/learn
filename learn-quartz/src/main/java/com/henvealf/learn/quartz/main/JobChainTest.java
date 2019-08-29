@@ -1,4 +1,4 @@
-package com.henvealf.learn.quartz.chain;
+package com.henvealf.learn.quartz.main;
 
 import com.henvealf.learn.quartz.jobs.HaveNextJob;
 import org.quartz.*;
@@ -9,7 +9,7 @@ import org.quartz.impl.StdSchedulerFactory;
  * @author hongliang.yin/Henvealf
  * @date 2019-07-23
  */
-public class TestJobChain {
+public class JobChainTest {
 
     public static void main(String[] args) throws SchedulerException, InterruptedException {
 

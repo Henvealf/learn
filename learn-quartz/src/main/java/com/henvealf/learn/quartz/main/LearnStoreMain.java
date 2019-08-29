@@ -1,4 +1,4 @@
-package com.henvealf.learn.quartz.store;
+package com.henvealf.learn.quartz.main;
 
 import org.quartz.SchedulerException;
 
