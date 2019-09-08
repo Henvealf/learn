@@ -2,7 +2,7 @@
 <configuration>
 
 
-    <contextName>logback-detection</contextName>
+    <contextName>logback-common</contextName>
     <!--${logback.home} 在启动时 -D 中配置-->
     <property name="logback.main" value="scheduler-server.log"/>
     <property name="logback.error" value="error.log"/>
@@ -71,48 +71,6 @@
 
     </appender>
 
-
-<!--    <appender name="main" class="org.springframework.amqp.rabbit.logback.AmqpAppender">-->
-
-<!--        &lt;!&ndash;rabbitmq地址 &ndash;&gt;-->
-
-<!--        <host>localhost</host>-->
-<!--        <port>5672</port>-->
-<!--        <username>guest</username>-->
-<!--        <password>guest</password>-->
-<!--        <routingKeyPattern>test</routingKeyPattern>-->
-<!--        <exchangeName>teste</exchangeName>-->
-<!--        <exchangeType>topic</exchangeType>-->
-<!--        <durable>false</durable>-->
-        <!--        <username>bdlabbang</username>-->
-        <!---->
-        <!--        <password>admin+3s</password>-->
-        <!---->
-        <!--        <declareExchange>true</declareExchange>
-
-                <exchangeType>topic</exchangeType>
-
-                <exchangeName>teste</exchangeName>
-
-                <routingKeyPattern>test</routingKeyPattern>
-
-                <generateId>true</generateId>
-
-                <charset>UTF-8</charset>
-
-                -->
-
-<!--                <deliveryMode>NON_PERSISTENT</deliveryMode>-->
-
-        <!--        <autoDelete>false</autoDelete>-->
-
-<!--        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">-->
-<!--            <layout class="com.henvealf.learn.spring.amqp.MyJsonLayout">-->
-<!--                <logType>test</logType>-->
-<!--            </layout>-->
-<!--        </encoder>-->
-
-<!--    </appender>-->
 
     <root level="INFO">
         <appender-ref ref="console" />
