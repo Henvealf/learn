@@ -127,6 +127,11 @@ under the License.
 			<version>${flink.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-gelly-scala_2.11</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>

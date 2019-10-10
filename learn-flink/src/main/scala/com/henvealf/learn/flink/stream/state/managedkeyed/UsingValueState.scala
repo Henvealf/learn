@@ -1,11 +1,11 @@
-package com.henvealf.learn.flink.stream.state
+package com.henvealf.learn.flink.stream.state.managedkeyed
 
 import org.apache.flink.api.common.functions.RichFlatMapFunction
 import org.apache.flink.api.common.state.{ValueState, ValueStateDescriptor}
-import org.apache.flink.util.Collector
 import org.apache.flink.api.scala._
 import org.apache.flink.configuration.Configuration
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
+import org.apache.flink.util.Collector
 
 /**
   * 学习使用 ManagedKeyedState 中的 ValueState
@@ -64,4 +64,5 @@ class CountWindowAverage extends RichFlatMapFunction[(Long, Long), (Long, Long)]
       new ValueStateDescriptor[(Long, Long)]("average", createTypeInformation[(Long, Long)])
     )
   }
+
 }
