@@ -15,14 +15,14 @@ import java.util.Properties;
  * @author hongliang.yin/Henvealf
  * @date 2019-09-07
  */
-public class ConsumerTest {
+public class ConsumerDisconnectionTest {
 
-    private Logger logger = LoggerFactory.getLogger(ConsumerTest.class);
+    private Logger logger = LoggerFactory.getLogger(ConsumerDisconnectionTest.class);
 
 
     @Test
     public void consumer_normal() {
-        Properties properties = getProperties();
+        Properties properties = KafkaTestUtil.getConsumerProperties();
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
         consumer.subscribe(Collections.singletonList(TestConstants.TOPIC_NAME));
         while (true) {
@@ -41,7 +41,7 @@ public class ConsumerTest {
      */
     @Test
     public void test_consumer_long_time_no_message() {
-        Properties properties = getProperties();
+        Properties properties = KafkaTestUtil.getConsumerProperties();
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(properties);
         consumer.subscribe(Collections.singletonList(TestConstants.TOPIC_NAME));
         while (true) {
@@ -52,13 +52,6 @@ public class ConsumerTest {
         }
     }
 
-    private Properties getProperties() {
-        Properties properties = new Properties();
-        properties.put("bootstrap.servers", "localhost:9092");
-        properties.put("group.id", "test1");
-        properties.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        properties.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        return properties;
-    }
+
 
 }
