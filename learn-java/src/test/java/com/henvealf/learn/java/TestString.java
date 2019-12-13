@@ -1,4 +1,4 @@
-package com.henvealf.learn.java.test;
+package com.henvealf.learn.java;
 
 import org.junit.Test;
 
