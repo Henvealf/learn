@@ -38,7 +38,7 @@ public class EnumLearn {
             return lookup.get(value);
         }
 
-        // 通过遍历 types 的方式获得。性能差。
+        // 通过遍历 types 的方式获得。复杂度 N 。
         public static TYPE getEnum2(String value) {
             for(TYPE v : values())
                 if(v.getValue().equalsIgnoreCase(value)) return v;
