@@ -32,6 +32,7 @@
         <module>learn-math3</module>
         <module>learn-spring-amqp</module>
         <module>learn-kafka</module>
+        <module>learn-encache</module>
     </modules>
 
 
@@ -74,6 +75,12 @@
                 <groupId>com.google.code.gson</groupId>
                 <artifactId>gson</artifactId>
                 <version>2.8.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>28.1-jre</version>
             </dependency>
 
             <dependency>
@@ -244,7 +251,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.54</version>
+                <version>1.2.62</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
@@ -264,6 +271,12 @@
                 <groupId>org.apache.flink</groupId>
                 <artifactId>flink-gelly-scala_2.11</artifactId>
                 <version>1.9.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.ehcache</groupId>
+                <artifactId>ehcache</artifactId>
+                <version>3.8.1</version>
             </dependency>
 
         </dependencies>
@@ -289,7 +302,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>
