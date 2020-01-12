@@ -31,5 +31,9 @@ public class GetProtectionDomain {
             System.out.println("actions: " + permission.getActions());
             System.out.println();
         }
+
+        // 获取 class 所在路径。
+        String path = protectionDomain.getCodeSource().getLocation().getPath();
+        System.out.println("path: " + path);
     }
 }
