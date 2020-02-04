@@ -6,6 +6,7 @@ import org.apache.avro.specific.SpecificDatumWriter;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 
 /**
  * Created by hongliang.yin/Henvealf on 2017/7/2.
