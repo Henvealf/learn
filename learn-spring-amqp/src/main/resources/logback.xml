@@ -41,11 +41,6 @@
         <routingKey>test</routingKey>
         <exchangeName>teste</exchangeName>
         <exchangeType>topic</exchangeType>
-<!--        <username>bdlabbang</username>-->
-<!---->
-<!--        <password>admin+3s</password>-->
-<!---->
-<!--        <declareExchange>true</declareExchange>
 
         <exchangeType>topic</exchangeType>
 
