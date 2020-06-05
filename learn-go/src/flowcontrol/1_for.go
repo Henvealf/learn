@@ -6,7 +6,7 @@ import "fmt"
 func main() {
 	sum := 0
 	for i := 0; i < 100; i ++ {
-		sum += 1
+		sum ++
 	}
 	fmt.Print(sum)
 }
@@ -15,7 +15,7 @@ func main() {
 func main1() {
 	sum := 0
 	for ; sum < 100;{
-		sum += 1
+		sum ++
 	}
 	fmt.Print(sum)
 }
@@ -24,7 +24,7 @@ func main1() {
 func main2() {
 	sum := 0
 	for sum < 100 {
-		sum += 1
+		sum ++
 	}
 	fmt.Print(sum)
 }
