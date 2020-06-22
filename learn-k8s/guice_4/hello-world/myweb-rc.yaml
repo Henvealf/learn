@@ -7,11 +7,12 @@ spec:
   selector:
     app: myweb
   template:
-    metadata:
-      app: myweb
-      spec:
-        containers:
-          - name: myweb
-            image: kubeguice/tomcat-app:v1
-            ports:
-              - containerPort: 8080
+    metadata:              # 元数据
+      labels:
+        app: myweb
+    spec:                  # 说明
+      containers:
+        - name: myweb
+          image: kubeguice/tomcat-app:v1
+          ports:
+            - containerPort: 8080
