@@ -9,13 +9,22 @@ import org.apache.flink.streaming.api.windowing.time.Time
   *
   * nc -lk 4567
   *
+  * ip for docker: host.docker.internal
+  *
   * @author hongliang.yin/Henvealf  
   * @date 2019-09-19
   */
 object WindowWordCount {
   def main(args: Array[String]): Unit = {
+    if (args.length !=2 ) {
+      print("need hostname and port")
+      System.exit(1);
+    }
+    val hostname: String = args(0)
+    val port: Int = args(1).toInt
+
     val env = StreamExecutionEnvironment.getExecutionEnvironment
-    val text = env.socketTextStream("localhost", 4567)
+    val text = env.socketTextStream(hostname, port)
     val count = text.flatMap(text => text.split("\\W+")).filter(_.nonEmpty)
       .map((_, 1))
       .keyBy(0)

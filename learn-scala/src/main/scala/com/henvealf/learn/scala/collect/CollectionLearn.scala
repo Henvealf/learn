@@ -2,6 +2,9 @@ package com.henvealf.learn.scala.collect
 
 import scala.collection.immutable.{HashMap, HashSet}
 
+// as java
+import collection.JavaConverters._
+
 /**
   * 各种集合学习
   *
