@@ -50,7 +50,9 @@ object StreamSQLKafkaJsonExample {
       return
     }
 
-   tEnv.executeSql(
+
+
+    tEnv.executeSql(
       """
         |CREATE TABLE user_behavior (
         |  id BIGINT,
@@ -68,12 +70,14 @@ object StreamSQLKafkaJsonExample {
         |)
         |""".stripMargin)
 
-    val result = tEnv.sqlQuery(
+    // 带窗口的。
+    val result: Table = tEnv.sqlQuery(
       """
         | select
         |   TUMBLE_START(user_action_time, INTERVAL '10' SECOND) as t,
         |   id,
         |   count(1) as c
+        |
         | from user_behavior
         | GROUP BY TUMBLE(user_action_time, INTERVAL '10' SECOND), id
         |""".stripMargin)
