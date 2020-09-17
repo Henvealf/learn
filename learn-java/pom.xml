@@ -68,5 +68,10 @@
             <artifactId>converter-gson</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.roaringbitmap</groupId>
+            <artifactId>RoaringBitmap</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
