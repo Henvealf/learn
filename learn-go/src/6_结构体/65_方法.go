@@ -15,7 +15,7 @@ func (p * Property) Value() int  {
 	return p.value
 }
 
-/* 使用非指针类型接受器 */
+/* 使用非指针类型接受器 - 获得对象的拷贝*/
 type Point struct {
 	X int
 	Y int

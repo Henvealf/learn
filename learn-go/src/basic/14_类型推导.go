@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	v := 42 // 修改这里！
@@ -9,5 +12,10 @@ func main() {
 	fmt.Printf("v1 is of type %T\n", v1)
 	v2 := 0.867 + 0.5i
 	fmt.Printf("v1 is of type %T\n", v2)
-}
 
+	arrint := []s{1, 2, 3}
+	fmt.Printf("arrint is of type %s\n", reflect.TypeOf(arrint).String())
+
+	arrstr := []string{"1", "2", "3"}
+	fmt.Printf("arrstr is of type %s\n", reflect.TypeOf(arrstr).String())
+}
